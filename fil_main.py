@@ -156,7 +156,7 @@ def reporte(panda):
 		server.ehlo()
 		server.starttls()
 		server.ehlo()
-		server.login("diegovillafuertesoraiz@gmail.com", "kilimanJaro93")
+		server.login("diegovillafuertesoraiz@gmail.com", "PASSWORD")
 		server.sendmail(sender, receivers, msg)
 		server.close()
 
